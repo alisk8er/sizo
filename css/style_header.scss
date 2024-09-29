@@ -1,0 +1,108 @@
+header {
+    width: 100%;
+    height: max-content;
+    background-color: rgb(41, 104, 149);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 10px rgb(75, 75, 75);
+    position: relative;
+    border-bottom: 3px solid white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+
+    @font-face {
+        font-family: "Roboto-Black";
+        src: url(/fonts/Roboto-Black.ttf);
+    }
+    @font-face {
+        font-family: "Roboto-Bold";
+        src: url(/fonts/Roboto-Bold.ttf);
+    }
+    @font-face {
+        font-family: "Roboto-BoldItalic";
+        src: url(/fonts/Roboto-BoldItalic.ttf);
+    }
+    @font-face {
+        font-family: "Roboto-Light";
+        src: url(/fonts/Roboto-Light.ttf);
+    }
+    @font-face {
+        font-family: "Caveat-Regular";
+        src: url(/fonts/Caveat/Caveat-Regular.ttf);
+    }
+    @font-face {
+        font-family: "Caveat-Medium";
+        src: url(/fonts/Caveat/Caveat-Medium.ttf);
+    }
+    @font-face {
+        font-family: "Caveat-Bold";
+        src: url(/fonts/Caveat/Caveat-Bold.ttf);
+    }
+    @font-face {
+        font-family: "Caveat-SemiBold";
+        src: url(/fonts/Caveat/Caveat-SemiBold.ttf);
+    }
+
+}
+
+.header_title {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    // background-color: gray;
+    text-align: left;
+    // margin: 2em;
+
+    h1 {
+    display: block;    
+    font-family: "Caveat-Regular";
+    font-size: 3.5vw;
+    color: white;
+    // border: 1px solid black;
+    }
+
+    h2 {
+    display: block;    
+    position: relative;
+    font-size: 1.5vw;    
+    color: rgb(214, 211, 211);
+    // border: 1px solid black;
+    font-family: "Roboto-Light";
+    padding-top: 1rem;
+    text-align: center;
+    margin-left: 25vw;
+    }
+}
+.header_logos {
+    width: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+    // background-color: gray;
+    // border: 1px solid black;
+    // margin-left: 10em;
+    
+    div > a > img {
+        width: 8vw;
+    }
+}
+
+.golub_header {
+    width: fit-content;
+
+    img {
+    width: 13vw;
+    position: relative;
+    // border: 1px solid black;
+    margin-bottom: -8vw;
+    margin-left: -52vw;
+    z-index: 1;
+    
+    }
+}
+
+
